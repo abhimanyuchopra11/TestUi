@@ -1,0 +1,29 @@
+<!-- <suite name="Story Test Cases" parallel="classes" thread-count="4"> -->
+	<suite name="Test Cases Testing Report">
+	<listeners>
+		<listener class-name="com.story.util.TestListnerExtentReport" />
+		<listener class-name="com.story.util.TestListner" />
+	</listeners>
+	<!--  <parameter name="os" value="${os}"></parameter>
+	<parameter name="env" value="${env}"></parameter> -->
+	<parameter name="os" value="mac"></parameter>
+	<parameter name="env" value="prod"></parameter>
+	
+	<test name="_Test_Cases" preserve-order="true">
+		<!--  <parameter name="browser" value="${browser}"></parameter> -->
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			
+	</test>
+
+	<!--test name="Story Test Cases FireFox"> <parameter name="browser" value="FireFox"/> 
+		<classes> <class name="com.story.testing.FunctionalityTest"/> <class name="com.story.testing.ListTest"> 
+		</classes> </test -->
+
+</suite>
+
+
+ 
+        	 
+        	 
+  
